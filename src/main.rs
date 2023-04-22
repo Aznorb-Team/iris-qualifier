@@ -2,8 +2,8 @@ use std::io::Write;
 use std::process::Command;
 
 fn main() {
-    let output = Command::new("echo")
-        .arg("Hello world")
+    let output = Command::new("python")
+        .arg("/home/sergey/srv/http/university/practice/labs/irisqualifier/method")
         .output()
         .expect("Failed to execute command");
 
